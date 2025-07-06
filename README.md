@@ -30,8 +30,6 @@ Los requerimientos que buscamos responder se dividen en las siguientes categorí
 - ¿Los videos en tendencia son los que mayor cantidad de comentarios positivos reciben?  
 - ¿Es factible predecir el número de “Vistas” o “Me gusta” o “No me gusta”?  
 
----
-
 ### Propósito Final
 
 Respondiendo estas preguntas, pretendemos:
@@ -39,3 +37,27 @@ Respondiendo estas preguntas, pretendemos:
 - Identificar preferencias del público por temática, canal o formato.  
 - Detectar tendencias temporales útiles para campañas de contenido viral.  
 - Reconocer factores predictivos que puedan anticipar el éxito de un video.
+
+## Descripción del dataset
+| **Campo**               | **Descripción**                                                                 |
+|-------------------------|---------------------------------------------------------------------------------|
+| `video_id`              | Identificador único del video en YouTube.                                      |
+| `trending_date`         | Fecha en la que el video apareció en tendencias.                               |
+| `title`                 | Título del video.                                                               |
+| `channel_title`         | Nombre del canal que publicó el video.                                         |
+| `category_id`           | Código numérico que indica la categoría del video.                             |
+| `publish_time`          | Fecha y hora exacta en la que el video fue publicado.                          |
+| `tags`                  | Etiquetas asociadas al video.                                                  |
+| `views`                 | Número total de visualizaciones.                                               |
+| `likes`                 | Número total de "Me gusta".                                                    |
+| `dislikes`              | Número total de "No me gusta".                                                 |
+| `comment_count`         | Número de comentarios recibidos.                                               |
+| `thumbnail_link`        | URL de la miniatura del video.                                                 |
+| `comments_disabled`     | Indica si los comentarios están deshabilitados (booleano).                     |
+| `ratings_disabled`      | Indica si las valoraciones están deshabilitadas (booleano).                    |
+| `video_error_or_removed`| Indica si el video fue eliminado o tiene un error.                             |
+| `state`                 | Nombre del Estado perteneciente al país.                                       |
+| `lat`                   | Latitud geográfica de ubicación del Estado.                                    |
+| `lon`                   | Longitud geográfica de ubicación del Estado.                                   |
+| `geometry`              | Coordenadas de las geometrías donde se ubica el Estado en el planeta.          |
+
