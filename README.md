@@ -1,5 +1,10 @@
 # Trending Youtube Video Statistics
 
+# Integrantes:
+- Colfer Mendoza, Carlos Alejandro (U20241B820)
+- Chavez Merino, Cielo Luwidka (U20191E443)
+- Cabrera Díaz, Marco Antonio Luciano (U202318540)
+
 ## Objetivo del proyecto
 Tenemos por objetivo analizar y comprender las tendencias de los videos en YouTube de Alemania con el fin de extraer información clave que permita al cliente de la consultora tomar decisiones de marketing en base a estos datos. 
 
